@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Réinitialisation des marges et des rembourrages */
+body,
+h1,
+p,
+header,
+main,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style de l'en-tête */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+img {
+  width: 500px; /* Ajustez la largeur selon vos besoins */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px; /* Centrage de l'image avec une marge en bas */
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+/* Style du contenu principal */
+main {
+  padding: 20px;
+}
+
+/* Style du pied de page */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* styles.css */
+
+/* Autres styles restent inchangés */
+
+/* Style pour la section des articles */
+.articles {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.article-link {
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+  max-width: calc(33.33% - 20px);
+}
+
+.article-link:hover article {
+  border: 1px solid #333;
+}
+
+article {
+  border: 1px solid transparent;
+  padding: 10px;
+}
+
+article h3 {
+  margin-bottom: 5px;
+}
+
+article p {
+  margin-bottom: 10px;
+}
