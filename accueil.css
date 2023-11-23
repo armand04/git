@@ -7,7 +7,7 @@ p,
 header,
 main,
 footer {
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
