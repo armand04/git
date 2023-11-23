@@ -7,7 +7,7 @@ p,
 header,
 main,
 footer {
-  margin: 0;
+  margin: auto;
   padding: 0;
 }
 
@@ -41,5 +41,4 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  margin-top: auto;
 }
